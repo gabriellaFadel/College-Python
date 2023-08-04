@@ -14,9 +14,22 @@ print("the fisrt value is: "+(str(value_one))+" the second value is: "+(str(valu
 addition = value_one + value_two
 print("the addition of the first value plus second value is: "+(str(addition)))
 
+
+if(value_one<value_two):
+    print("the first value must to be bigger than the second value")
+    value_one = int(input("Please enter with a new value:"))
+
 #Subtraction
 subtraction = value_one - value_two
 print("the subtraction of the first value minus second value is: "+(str(subtraction)))
+
+#Multiplication 
+multiplication  = value_one * value_two
+print("the multiplication of the first value multiplied by second value is: "+(str(multiplication)))
+
+#Division 
+division  = value_one / value_two
+print("the division of the first value divide by second value is: "+(str(division)))
 
 
 
