@@ -14,6 +14,10 @@ print("the fisrt value is: "+(str(value_one))+" the second value is: "+(str(valu
 addition = value_one + value_two
 print("the addition of the first value plus second value is: "+(str(addition)))
 
+#Subtraction
+subtraction = value_one - value_two
+print("the subtraction of the first value minus second value is: "+(str(subtraction)))
+
 
 
 
