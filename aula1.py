@@ -8,8 +8,14 @@ if (value_one <= 0):
     value_one = int(input("Please enter with another value:"))
 
 # writer note : if you want concatenete a int variable in python you need convert it for type string, like the exemple 
-
 print("the fisrt value is: "+(str(value_one))+" the second value is: "+(str(value_two))) 
+
+#Addition
+addition = value_one + value_two
+print("the addition of the first value plus second value is: "+(str(addition)))
+
+
+
 
 
 
