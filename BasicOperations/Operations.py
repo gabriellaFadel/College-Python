@@ -15,23 +15,23 @@ class Operations:
     #Addition
     def addition(val_1,val_2):
         addition = val_1 + val_2
-        print("the addition of the first value plus second value is: "+(str(addition)))
+        print("the result of addition is: "+(str(addition)))
 
     #Subtraction
     def substraction(val_1,val_2):
         substraction = val_1 - val_2
-        print("the subtraction of the first value minus second value is: "+(str(substraction)))
+        print("the result of substraction is : "+(str(substraction)))
 
 
     #Multiplication 
     def multiplication(val_1,val_2):
         multiplication  = val_1 * val_2
-        print("the multiplication of the first value multiplied by second value is: "+(str(multiplication)))
+        print("the result of multiplication is: "+(str(multiplication)))
 
     #Division 
     def division(val_1,val_2):
         division  = val_1 / val_2
-        print("the division of the first value divide by second value is: "+(str(division)))
+        print("the result of division is:"+(str(division)))
 
 
 Operations.addition(value_one,value_two)
