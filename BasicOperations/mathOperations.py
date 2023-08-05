@@ -10,29 +10,31 @@ if (value_one <= 0):
 # writer note : if you want concatenete a int variable in python you need convert it for type string, like the exemple 
 print("the fisrt value is: "+(str(value_one))+" the second value is: "+(str(value_two))) 
 
-#Addition
-def addition_value(val_1,val_2):
-    addition = val_1 + val_2
-    print("the addition of the first value plus second value is: "+(str(addition)))
+class Operations:
 
-#Subtraction
-def substraction_value(val_1,val_2):
-    subtraction = val_1 - val_2
-    print("the subtraction of the first value minus second value is: "+(str(subtraction)))
+    #Addition
+    def addition_value(val_1,val_2):
+        addition = val_1 + val_2
+        print("the addition of the first value plus second value is: "+(str(addition)))
+
+    #Subtraction
+    def substraction_value(val_1,val_2):
+        substraction = val_1 - val_2
+        print("the subtraction of the first value minus second value is: "+(str(substraction)))
 
 
-#Multiplication 
-def multiplication_value(val_1,val_2):
-    multiplication  = val_1 * val_2
-    print("the multiplication of the first value multiplied by second value is: "+(str(multiplication)))
+    #Multiplication 
+    def multiplication_value(val_1,val_2):
+        multiplication  = val_1 * val_2
+        print("the multiplication of the first value multiplied by second value is: "+(str(multiplication)))
 
-#Division 
-def division_value(val_1,val_2):
-    division  = val_1 / val_2
-    print("the division of the first value divide by second value is: "+(str(division)))
+    #Division 
+    def division_value(val_1,val_2):
+        division  = val_1 / val_2
+        print("the division of the first value divide by second value is: "+(str(division)))
 
-addition_value(value_one,value_two)
-substraction_value(value_one,value_two)
+
+Operations.addition_value(value_one,value_two)
 
 
 
