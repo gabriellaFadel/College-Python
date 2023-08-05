@@ -13,28 +13,28 @@ print("the fisrt value is: "+(str(value_one))+" the second value is: "+(str(valu
 class Operations:
 
     #Addition
-    def addition_value(val_1,val_2):
+    def addition(val_1,val_2):
         addition = val_1 + val_2
         print("the addition of the first value plus second value is: "+(str(addition)))
 
     #Subtraction
-    def substraction_value(val_1,val_2):
+    def substraction(val_1,val_2):
         substraction = val_1 - val_2
         print("the subtraction of the first value minus second value is: "+(str(substraction)))
 
 
     #Multiplication 
-    def multiplication_value(val_1,val_2):
+    def multiplication(val_1,val_2):
         multiplication  = val_1 * val_2
         print("the multiplication of the first value multiplied by second value is: "+(str(multiplication)))
 
     #Division 
-    def division_value(val_1,val_2):
+    def division(val_1,val_2):
         division  = val_1 / val_2
         print("the division of the first value divide by second value is: "+(str(division)))
 
 
-Operations.addition_value(value_one,value_two)
+Operations.addition(value_one,value_two)
 
 
 
