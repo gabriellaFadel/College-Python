@@ -1,4 +1,3 @@
-
 class Operations:
 
     #Addition
@@ -7,9 +6,9 @@ class Operations:
         print("the result of addition is: "+(str(addition)))
 
     #Subtraction
-    def substraction(val_1,val_2):
-        substraction = val_1 - val_2
-        print("the result of substraction is : "+(str(substraction)))
+    def subtraction(val_1,val_2):
+        subtraction = val_1 - val_2
+        print("the result of subtraction is : "+(str(subtraction)))
 
 
     #Multiplication 
