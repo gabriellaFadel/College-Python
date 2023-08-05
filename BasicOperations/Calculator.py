@@ -8,7 +8,8 @@ print("1 = addition")
 print("2 = subtraction")
 print("3 = multiplication")
 print("4 = division")
-math_operation = int(input("What operation do you want realize?:"))
+
+math_operation = int(input("What operation do you want realize?"))
 
 value_one = int(input("Enter with the first value:"))
 value_two = int(input("Enter with the second value:"))
