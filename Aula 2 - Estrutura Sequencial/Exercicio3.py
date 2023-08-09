@@ -14,6 +14,9 @@ valor_ganhador_1 = float(premio * 0.46)
 
 valor_ganhador_2 = float(premio * 0.32)
 
-valor_ganhador_3 = float(premio - valor_ganhador_1 - valor_ganhador_2)
+valor_ganhador_3 = float(premio - (valor_ganhador_1 + valor_ganhador_2))
 
-print (valor_ganhador_1,valor_ganhador_2,valor_ganhador_3)
+print (valor_ganhador_1)
+print (valor_ganhador_2)
+print (valor_ganhador_3)
+

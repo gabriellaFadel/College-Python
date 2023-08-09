@@ -2,8 +2,8 @@
 # e exibir o resultado para cada uma das seguintes operações:
 # soma, subtração, multiplicação, divisão, divisão truncada, resto e exponenciação. 
 
-var1 = int(input("Digite o primeiro valor: "))
-var2 = int(input("Digite o segundo valor: "))
+var1 = int(input())
+var2 = int(input())
 
 #soma
 soma = var1+var2
